@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+#container{
+    background-color: white;
+    display: flex;
+    /* Justify alinha intens na horizontal (esquerda para a direita) */
+    justify-content: flex-end;
+}
+
+.quadrado{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 1px black solid;
+    justify-content: space-between;
+}
